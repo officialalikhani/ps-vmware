@@ -18,7 +18,7 @@ if ($Number -eq  1)
             $VMHost = Read-Host "ip"           
             $Name = Read-Host "VM name"
             $DataStore = Read-Host "datastore "
-            $OVF = "F:\tools\routeros\MikroTik-RouterOS-6.48.0_2\MikroTik-RouterOS-6.48.0\MikroTik-RouterOS-6.48-HDD6GB.ova"
+            $OVF = "Your address"
             $Credential = Get-Credential
 
             Connect-VIServer -Server $VMHost -Credential $Credential
